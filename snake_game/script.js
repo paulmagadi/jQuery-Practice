@@ -73,5 +73,5 @@ $(document).ready(function () {
     });
 
     // Start the game loop
-    setInterval(moveSnake, 200);
+    setInterval(moveSnake, 300);
 });
