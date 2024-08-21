@@ -4,22 +4,22 @@ $(document).ready(function () {
     let food = { x: 10, y: 10 };
     let direction = { x: 1, y: 0 };
     let boardSize = 20;
-    let gameSpeed = 200;  // Default speed for "easy"
+    let gameSpeed = 300;  // Default speed for "easy"
     let gameInterval;
 
     // Function to set the level based on user choice
     function setLevel(level) {
         switch (level) {
             case 'easy':
-                gameSpeed = 200;
+                gameSpeed = 300;
                 boardSize = 20;
                 break;
             case 'medium':
-                gameSpeed = 150;
+                gameSpeed = 200;
                 boardSize = 25;
                 break;
             case 'hard':
-                gameSpeed = 100;
+                gameSpeed = 150;
                 boardSize = 30;
                 break;
         }
